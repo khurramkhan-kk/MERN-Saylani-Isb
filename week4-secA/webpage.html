@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Html design with bootstrap</title>
+    <!-- CDN link for bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+<!-- Local inducted bootstrap -->
+<link href="./bootstrap-5.3.2/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <style>
+    .myimg {border-radius: 34px;}
+  </style>
+   
+</head>
+<body>
+    <!-- bootstrap framework or library -->
+    <!-- old work comment out 13 Jan 2024 -->
+<!-- <h1>Bootstrap hello world</h1>
+<img src="https://cdn.dribbble.com/userupload/9134562/file/original-6811deef518fdcd2547425286ce1f3f8.jpg?crop=0x0-1366x1024&resize=400x300&vertical=center"   class="img-thumbnail myimg" height="200" width="200" />
+    <table class="table" >
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+<div class="container">
+<h1>main container work</h1>
+</div>
+<div class="container-sm">
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex assumenda fuga sunt cupiditate suscipit unde, nostrum ducimus incidunt sed aut labore? Sint recusandae ipsam laborum deleniti nihil excepturi odit corporis.</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, necessitatibus sed. Nulla, commodi voluptatem. Pariatur a, quos magnam asperiores blanditiis itaque rerum. Sunt necessitatibus minus praesentium eos architecto, placeat eius?</p>
+</div> -->
+
+
+<!-- CDN link for Javascript -->
+      <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+
+<div class="container">
+  <!-- navbar working here -->
+<div class="row">
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+    
+  </div>
+</nav>
+</div>
+
+<!-- carousel working slider images -->
+<div class="row">
+  <div class="col">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://soliloquywp.com/wp-content/uploads/2016/08/11-Website-Slider-Best-Practices-That-You-Must-Follow.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://soliloquywp.com/wp-content/uploads/2016/09/How-to-Add-a-Homepage-Slider-in-WordPress.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://inchoo.net/wp-content/uploads/2016/07/youre_a_slider_toni_Inchoo.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<!-- 3 col base subcontent -->
+
+<div class="row">
+<div class="col">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quibusdam commodi eligendi totam, enim aliquid blanditiis eveniet quisquam optio quo cumque minus quaerat pariatur rerum! Explicabo eius esse debitis illo!</p>
+</div>
+<div class="col">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, placeat quae? Quibusdam explicabo, aspernatur praesentium neque vero, consequuntur tenetur, facere autem vel ratione repudiandae recusandae quidem excepturi quo nemo! Dicta!</p>
+
+</div>
+
+<div class="col">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ea blanditiis eum recusandae facilis ab. In totam corporis nihil non vel iusto molestias. Maiores nobis sint a consequuntur omnis tenetur!</p>
+</div>
+</div>
+
+</div>
+
+
+
+
+      <!-- this jS bootstrap for local -->
+      <script src="./bootstrap-5.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
